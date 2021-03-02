@@ -27,6 +27,12 @@ public class Categoria {
 	public void setId(long id) {
 		this.id = id;
 	}
+	public Produto getProduto() {
+		return produto;
+	}
+	public void setProduto(Produto produto) {
+		this.produto = produto;
+	}
 	public String getConsole() {
 		return console;
 	}
