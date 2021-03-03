@@ -15,7 +15,7 @@ public class Usuario {
 	@Id @GeneratedValue(strategy = GenerationType.IDENTITY) private long id;
 	@NotNull @Size(min = 2, max = 100) private String nome;
 	@NotNull @Size(min = 6, max = 100) private String usuario;
-	@NotNull @Size(min = 6, max = 100) private String senha;
+	@NotNull private String senha;
 	
 	public long getId() {
 		return id;
