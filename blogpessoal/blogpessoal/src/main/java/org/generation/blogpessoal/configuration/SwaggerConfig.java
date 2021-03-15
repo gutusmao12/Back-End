@@ -24,8 +24,8 @@ public class SwaggerConfig {
 	
 	private ApiInfo apiInfo(){
 		return new ApiInfoBuilder()
-		.title("Projeto Catalogo")
-		.description("API do Projeto AppCatalogo")
+		.title("Projeto Blog Pessoal")
+		.description("API do Projeto Blog Pessoal")
 		.version("1.0")
 		.contact(contact())
 		.build();
@@ -34,6 +34,6 @@ public class SwaggerConfig {
 	private Contact contact(){
 		return new Contact("Gustavo Vilela",
 		"https://github.com/gutusmao12",
-		"Desenvolvedor Java Full Stack");
+		"guga.vilelad@gmail.com");
 	}
 }
